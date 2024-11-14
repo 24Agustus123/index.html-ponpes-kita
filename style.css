@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 400%;
+    height: 80px;
+    background-color: darkgrey;
+}
+
+.nav ul li{
+    display: inline-block;
+    line-height: 70px;
+}
+
+.nav ul li a{
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: black;
+}
+
+.container{
+    width: 960px;
+    margin: 80px auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 30px;
+}
+
+.header p{
+    margin-top: 40px;
+}
+
+.hero{
+    height: 0px;
+    background-image: url(img/hhh.jpg);
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    padding: 0px;
+}
+
+hr{
+    width: 350px;
+    border-top: 3px solid lightblue;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraf{
+    padding: 100px;
+}
+
+.paragraf p{
+    margin-bottom: 10px;
+}
+
+
+.content{
+    padding: 50px;
+    margin-top: -80px;
+}
+
+.kiri{
+    width: 400px;
+    float: left;
+    background-color: #dcd3ff;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.kanan{
+    width: 400px;
+    float: right;
+    background: #dcd3ff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    margin-left: 48px;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";/* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    zoom: 1;
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+
+.copy{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer a{
+    color: lightskyblue;
+    text-decoration: none;
+}
